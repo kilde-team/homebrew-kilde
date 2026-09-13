@@ -8,6 +8,7 @@ tap を追加してからインストールします。
 
 ```sh
 brew tap takezou621/kilde
+brew trust --formula takezou621/kilde/kilde   # 新しい Homebrew のセキュリティモデルで必要 (初回 1 回)
 brew install kilde
 ```
 
