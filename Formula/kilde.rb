@@ -6,8 +6,6 @@ class Kilde < Formula
   sha256 "89e23d94441bcecf11b3dc51c9418831925723f8455562123208c91e1f48b242"
   license "MIT"
 
-  depends_on macos: :sonoma
-
   head do
     url "https://github.com/takezou621/kilde.git", branch: "main"
     # macOS 26 の SCStreamConfiguration.Preset (captureHDRRecordingPreservedSDRHDR10)
@@ -15,6 +13,8 @@ class Kilde < Formula
     # .platforms 宣言による)。旧 OS ユーザーはバイナリ (bottle) を使う
     depends_on xcode: ["26.0", :build]
   end
+
+  depends_on macos: :sonoma
 
   def install
     if build.head?
