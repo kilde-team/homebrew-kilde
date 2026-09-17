@@ -1,21 +1,21 @@
 # Homebrew tap for kilde
 
-[kilde](https://github.com/takezou621/kilde) の Homebrew tap です。
+[kilde](https://github.com/kilde-team/kilde) の Homebrew tap です。
 
 ## インストール
 
 tap を追加してからインストールします。
 
 ```sh
-brew tap takezou621/kilde
-brew trust --formula takezou621/kilde/kilde   # 新しい Homebrew のセキュリティモデルで必要 (初回 1 回)
+brew tap kilde-team/kilde
+brew trust --formula kilde-team/kilde/kilde   # 新しい Homebrew のセキュリティモデルで必要 (初回 1 回)
 brew install kilde
 ```
 
 tap の追加とインストールを 1 コマンドで行うこともできます。
 
 ```sh
-brew install takezou621/kilde/kilde
+brew install kilde-team/kilde/kilde
 ```
 
 ## HEAD 版
@@ -24,7 +24,7 @@ brew install takezou621/kilde/kilde
 Xcode 26 SDK 以降が必要です (macOS 26 の `captureHDRRecordingPreservedSDRHDR10` を参照するため、旧 SDK ではビルドできません。実行は macOS 14+ に対応します)。
 
 ```sh
-brew install --HEAD takezou621/kilde/kilde
+brew install --HEAD kilde-team/kilde/kilde
 ```
 
 ## BlackHole
