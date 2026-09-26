@@ -1,0 +1,14 @@
+Formula/kilde.rb
+  h_864205080385bc 4-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "69e821017b7f04c33c066c792547552a528ab5a0",
+  "prompts": {},
+  "humans": {
+    "h_864205080385bc": {
+      "author": "takezou621 <takezou621@gmail.com>"
+    }
+  }
+}
